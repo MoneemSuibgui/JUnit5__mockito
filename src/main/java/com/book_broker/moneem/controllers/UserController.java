@@ -40,7 +40,11 @@ public class UserController {
 			return "index.jsp";
 		}
 		// if there is no error we save user & store  userId into session
-		userServ.saveUser(newUser);
+		try {
+			userServ.saveUser(newUser);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		session.setAttribute("userId", newUser.getId());
 		return "redirect:/books";
 	}
