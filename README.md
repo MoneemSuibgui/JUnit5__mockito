@@ -1,5 +1,5 @@
 ## Book Broker App
-#### Description :
+### Description :
 ```
    For this Application we'll be adding a new feature to my Book Club application
    of the Java repository and Test application using JUnit5 and mockito,
@@ -9,7 +9,7 @@
 ```
 
 
-#### Objectives :
+### Objectives :
 ```
   Implement full CRUD, adding update and delete to your application
   Implement multiple one-to-many relationships in an application
@@ -20,14 +20,15 @@
   Use mockito by creating mock objects and testing our Services
 ```
 
-#### Writing Tests: We will use JUnit5 and Mockito for unit testing application
+### Writing Tests: We will use JUnit5 and Mockito for unit testing application
 ```
   Create test classes and methods using annotations (e.g., @Test).
   Use JUnit assertions and Mockito for mocking external dependencies.
  ```
 
-#### Installation and Usage:
-##### clone/fork this repo, then git pull to get the latest changes
+### Installation and Usage:
+### clone/fork this repo, then git pull to get the latest changes
+
 
 ### Dependencies : add dependencies to pom.xml file (make sure you have the necessary dependencies for testing)
 ```
@@ -84,8 +85,8 @@
 		</dependency>
 		<!-- DEPENDENCIES FOR INTEGRATING SQL DATABASE AND USING JPA -->
 		<!-- Note: Project will not run until a schema has been created and the
-    proper settings in application properties are present for
-    connecting to a database. -->
+    		proper settings in application properties are present for
+    		connecting to a database. -->
 		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
