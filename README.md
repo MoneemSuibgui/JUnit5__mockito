@@ -1,5 +1,5 @@
-#### Book Broker App
-## Description :
+## Book Broker App
+#### Description :
 ```
    For this Application we'll be adding a new feature to my Book Club application
    of the Java repository and Test application using JUnit5 and mockito,
@@ -9,7 +9,7 @@
 ```
 
 
-### Objectives :
+#### Objectives :
 ```
   Implement full CRUD, adding update and delete to your application
   Implement multiple one-to-many relationships in an application
@@ -19,17 +19,17 @@
   Testing Repositories using JUnit5 and some Assertions methods
   Use mockito by creating mock objects and testing our Services
 ```
-#### We will use JUnit5 and Mockito for unit testing application
-### Writing Tests: 
+
+#### Writing Tests: We will use JUnit5 and Mockito for unit testing application
 ```
   Create test classes and methods using annotations (e.g., @Test).
   Use JUnit assertions and Mockito for mocking external dependencies.
  ```
 
 #### Installation and Usage:
-## clone/fork this repo, then git pull to get the latest changes
+##### clone/fork this repo, then git pull to get the latest changes
 
-## Dependencies : add dependencies to pom.xml file (make sure you have the necessary dependencies for testing)
+### Dependencies : add dependencies to pom.xml file (make sure you have the necessary dependencies for testing)
 ```
   <!-- DEPENDENCIES FOR STARTING SPRING PROJECTS-->
 		<dependency>
@@ -119,8 +119,8 @@
 		</dependency>
 		
 ```
-## Initialize the database for application (we create the schema) and connect to views :
-# applications.proerties file
+### Initialize the database for application (we create the schema) and connect to views :
+#### applications.proerties file
 ```
 # Where are jsp files? HERE!
 spring.mvc.view.prefix=/WEB-INF/
@@ -133,7 +133,8 @@ spring.jpa.hibernate.ddl-auto=update
 spring.mvc.hiddenmethod.filter.enabled=true
 server.port=8082
 ```
-## Initialize the database for testing application using H2 db
+### Initialize the database for testing application using H2 db
+#### app.properties file :
 ```
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.driverClassName=org.h2.Driver
@@ -146,7 +147,7 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 ```
-## Run the app using Eclipse:
+#### Run the app using Eclipse:
 ```
    Choose your Spring Boot project.
   Select Run As ➡️ Java Application.
@@ -154,7 +155,7 @@ spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
   Open browser [http://localhost:8082]
 ```
 
-## Run the tests :
+#### Run the tests :
 ```
   Run as -> JUnit Test
   JUnit will execute the test methods and report the results.
