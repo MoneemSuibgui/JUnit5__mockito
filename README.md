@@ -27,7 +27,7 @@
  ```
 
 ### Installation and Usage:
-### clone/fork this repo, then git pull to get the latest changes
+  ### clone/fork this repo, then git pull to get the latest changes
 
 
 ### Dependencies : add dependencies to pom.xml file (make sure you have the necessary dependencies for testing)
