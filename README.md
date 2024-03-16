@@ -1,9 +1,8 @@
 ## Book Broker App
 ### Description :
 ```
-   For this Application we'll be adding a new feature to my Book Club application
-   of the Java repository and Test application using JUnit5 and mockito,
-   the Book Broker dashboard. we do not need to create a new project.
+   For this Application we'll be adding a new feature to Book Club application,
+   the Book Broker dashboard and we'll be Testing application using JUnit5 and mockito
    In fact, i'll need to use the last assignment to build upon. However,
    we will be altering the relationships and models to add this functionality
 ```
@@ -11,13 +10,13 @@
 
 ### Objectives :
 ```
-  Implement full CRUD, adding update and delete to your application
-  Implement multiple one-to-many relationships in an application
-  Alter, assign, and re-assign many-to-one relationships
-  Use a nullable field in a relationship
-  Testing all models of our application : we write out an individual test case for each field.
-  Testing Repositories using JUnit5 and some Assertions methods
-  Use mockito by creating mock objects and testing our Services
+  -> Implement full CRUD, adding update and delete to your application
+  -> Implement multiple one-to-many relationships in an application
+  -> Alter, assign, and re-assign many-to-one relationships
+  -> Use a nullable field in a relationship
+  -> Testing all models of our application : we write out an individual test case for each field.
+  -> Testing Repositories using JUnit5 and some Assertions methods
+  -> Use mockito by creating mock objects and testing our Services
 ```
 
 ### Writing Tests: We will use JUnit5 and Mockito for unit testing application
