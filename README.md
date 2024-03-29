@@ -149,7 +149,7 @@ spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 ```
 #### Run the app using Eclipse:
 ```
-   Choose your Spring Boot project.
+  Choose your Spring Boot project.
   Select Run As ➡️ Java Application.
   Select it and hit OK.
   Open browser [http://localhost:8082]
@@ -157,8 +157,10 @@ spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 
 #### Run the tests :
 ```
-  Run as -> JUnit Test
-  JUnit will execute the test methods and report the results.
+  ➡️ Choose your Spring Boot project
+  --> Select Run As ➡️ JUnit Test
+  --> Select it and hit OK
+  --> JUnit will execute the test methods and report the results.
 ```
 
 
